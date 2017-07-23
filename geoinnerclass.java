@@ -1,3 +1,6 @@
+//Programmer : Shrimant More
+//Task : Calculate area of various figures using inner class concept
+
 import java.util.Scanner;
 
 class figure	//Parent class
