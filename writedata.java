@@ -1,3 +1,6 @@
+//Programmer : Shrimant More
+//Task : Write a string to a file 
+
 import java.io.*;
 
 class writedata
@@ -14,18 +17,5 @@ w.write("hello world");
 w.flush();
 w.close();
 
-
   }
-
-
-
-
-
-
-
-
-
-
-
-
 }
