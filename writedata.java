@@ -1,3 +1,6 @@
+//Programmer : Shrimant More
+//Task : Write a string to a file
+
 import java.io.*;
 
 class writedata
@@ -8,24 +11,11 @@ class writedata
 
     file.createNewFile(); //creates New File
 
-FileWriter w = new FileWriter(file);
+	FileWriter w = new FileWriter(file);
 
-w.write("hello world");
-w.flush();
-w.close();
-
-
-  }
-
-
-
-
-
-
-
-
-
-
-
+	w.write("hello world");	
+	w.flush();
+	w.close();
+ }
 
 }
